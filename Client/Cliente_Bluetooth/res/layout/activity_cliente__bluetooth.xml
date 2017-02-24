@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView android:id="@+id/title_archivos_remotos"   
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido Dispositivo Remoto"
+        android:visibility="gone"
+        android:background="#3f3f3f"
+        android:textColor="#fff"
+        android:paddingLeft="5dp"
+    />
+   
+   
+   <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:transcriptMode="alwaysScroll"
+        android:background="#ffffff"
+        android:layout_weight="1" >
+    </ListView>
+   
+    <!-- 
+    <ListView android:id="@+id/archivos_remotos"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:transcriptMode="alwaysScroll"
+        android:layout_weight="1"
+    /> -->
+    
+
+<TextView android:id="@+id/title_nuestros_archivos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Archivos recibidos"
+        android:visibility="gone"
+        android:background="#3f3f3f"
+        android:textColor="#fff"
+        android:paddingLeft="5dp"
+    />
+
+
+<ListView android:id="@+id/arhivos_dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:transcriptMode="alwaysScroll"
+        android:background="#ffffff"
+        android:layout_weight="1"
+    />
+
+
+
+<Button android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Contenido SD"
+    />
+
+
+</LinearLayout>
